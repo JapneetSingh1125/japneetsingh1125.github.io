@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — Simmerpreet Kaur, MSN, APRN</title>
+  <title>Simmerpreet Kaur, MSN, APRN — Virtual Healthcare</title>
   <style>
     body {
       font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -29,28 +29,35 @@
     nav a:hover {
       opacity: 0.8;
     }
-    main {
-      max-width: 900px;
-      margin: 60px auto;
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-    }
-    h1 {
-      color: #023e8a;
-      font-size: 2.2em;
+    .hero {
+      padding: 80px 20px;
       text-align: center;
     }
-    h2 {
-      color: #0077b6;
-      font-size: 1.5em;
-      margin-top: 40px;
+    .hero h1 {
+      color: #023e8a;
+      font-size: 2.5em;
+      margin-bottom: 15px;
     }
-    p {
-      line-height: 1.7;
-      font-size: 17px;
-      color: #444;
+    .hero p {
+      font-size: 18px;
+      color: #333;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #0077b6;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 8px;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #005f8d;
     }
     footer {
       background-color: #003049;
@@ -60,17 +67,11 @@
       font-size: 14px;
       margin-top: 60px;
     }
-    @media (max-width: 600px) {
-      main {
-        margin: 30px 15px;
-        padding: 25px;
-      }
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>About Simmerpreet Kaur</h1>
+    <h1>Simmerpreet Kaur, MSN, APRN</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -78,21 +79,11 @@
     </nav>
   </header>
 
-  <main>
-    <h2>Professional Care, Personal Touch</h2>
-    <p>
-      <strong>Simmerpreet Kaur, MSN, APRN</strong>, is a dedicated nurse practitioner providing high-quality, patient-centered virtual healthcare. With years of clinical experience and a compassionate approach, she helps clients better understand their health and empowers them to make informed decisions.
-    </p>
-
-    <p>
-      Simmerpreet offers personalized telehealth consultations, wellness assessments, and symptom evaluations — designed for comfort, privacy, and convenience. Her mission is to make professional healthcare accessible to everyone, anywhere.
-    </p>
-
-    <h2>Why Choose Virtual Care?</h2>
-    <p>
-      Virtual visits allow patients to connect with a licensed provider from home, ensuring flexible scheduling and continuous care. Whether you’re managing chronic conditions or seeking preventive guidance, Simmerpreet offers trusted support tailored to your needs.
-    </p>
-  </main>
+  <section class="hero">
+    <h1>Your Health, Simplified</h1>
+    <p>Professional virtual healthcare consultations with <strong>Simmerpreet Kaur</strong> — focused on compassionate care, expert diagnosis, and personalized support from the comfort of your home.</p>
+    <a href="contact.html" class="cta-button">Book a Consultation</a>
+  </section>
 
   <footer>
     <p>© 2025 Simmerpreet Kaur, MSN, APRN. All rights reserved.</p>
