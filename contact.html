@@ -1,46 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — Simmerpreet Kaur, MSN, APRN</title>
   <style>
     body {
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
-      color: #333;
-      text-align: center;
+      background: linear-gradient(180deg, #f8fbff, #eaf3fc);
+      color: #222;
     }
     header {
       background-color: #0077b6;
       color: white;
       padding: 25px 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
-      font-weight: bold;
+      font-weight: 500;
+      transition: opacity 0.2s;
     }
     nav a:hover {
-      text-decoration: underline;
+      opacity: 0.8;
     }
-    section {
+    .contact-section {
+      text-align: center;
       padding: 60px 20px;
-    }
-    footer {
-      background-color: #003049;
-      color: white;
-      padding: 15px;
-      font-size: 14px;
     }
     .contact-card {
       background-color: white;
       max-width: 500px;
       margin: auto;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .contact-card h2 {
+      color: #023e8a;
+      margin-bottom: 20px;
+    }
+    .contact-card p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #0077b6;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 8px;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #005f8d;
+    }
+    footer {
+      background-color: #003049;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -54,17 +91,18 @@
     </nav>
   </header>
 
-  <section>
+  <section class="contact-section">
     <div class="contact-card">
       <h2>Get in Touch</h2>
       <p><strong>Phone:</strong> <a href="tel:2146033091">214-603-3091</a></p>
       <p><strong>Email:</strong> <a href="mailto:simmer1426kaur@yahoo.com">simmer1426kaur@yahoo.com</a></p>
-      <p>Book your virtual consultation today and take the first step toward better health.</p>
+      <p>Have questions or want to schedule a consultation? Reach out today — caring, professional support is just a message away.</p>
+      <a href="mailto:simmer1426kaur@yahoo.com?subject=Virtual Consultation Request" class="cta-button">Book Appointment</a>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Simmerpreet Kaur. All rights reserved.</p>
+    <p>© 2025 Simmerpreet Kaur, MSN, APRN. All rights reserved.</p>
   </footer>
 </body>
 </html>
