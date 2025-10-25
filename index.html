@@ -1,57 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Simmerpreet Kaur, MSN, APRN — Virtual Health Consultations</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Simmerpreet Kaur, MSN, APRN</title>
   <style>
     body {
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
-      color: #333;
-      text-align: center;
+      background: linear-gradient(180deg, #f8fbff, #eaf3fc);
+      color: #222;
     }
     header {
       background-color: #0077b6;
       color: white;
       padding: 25px 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
-      font-weight: bold;
+      font-weight: 500;
+      transition: opacity 0.2s;
     }
     nav a:hover {
-      text-decoration: underline;
+      opacity: 0.8;
     }
-    section {
-      padding: 60px 20px;
+    main {
+      max-width: 900px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: #023e8a;
+      font-size: 2.2em;
+      text-align: center;
+    }
+    h2 {
+      color: #0077b6;
+      font-size: 1.5em;
+      margin-top: 40px;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 17px;
+      color: #444;
     }
     footer {
       background-color: #003049;
       color: white;
-      padding: 15px;
+      text-align: center;
+      padding: 18px;
       font-size: 14px;
+      margin-top: 60px;
     }
-    button {
-      background-color: #0077b6;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005f8d;
+    @media (max-width: 600px) {
+      main {
+        margin: 30px 15px;
+        padding: 25px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Simmerpreet Kaur, MSN, APRN</h1>
-    <p>Professional Virtual Health Consultations</p>
+    <h1>About Simmerpreet Kaur</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -59,14 +78,24 @@
     </nav>
   </header>
 
-  <section>
-    <h2>Empowering Better Health, One Conversation at a Time</h2>
-    <p>Simmerpreet Kaur offers personalized virtual health consultations to help clients achieve wellness through professional guidance and compassionate care.</p>
-    <button onclick="window.location.href='contact.html'">Book a Consultation</button>
-  </section>
+  <main>
+    <h2>Professional Care, Personal Touch</h2>
+    <p>
+      <strong>Simmerpreet Kaur, MSN, APRN</strong>, is a dedicated nurse practitioner providing high-quality, patient-centered virtual healthcare. With years of clinical experience and a compassionate approach, she helps clients better understand their health and empowers them to make informed decisions.
+    </p>
+
+    <p>
+      Simmerpreet offers personalized telehealth consultations, wellness assessments, and symptom evaluations — designed for comfort, privacy, and convenience. Her mission is to make professional healthcare accessible to everyone, anywhere.
+    </p>
+
+    <h2>Why Choose Virtual Care?</h2>
+    <p>
+      Virtual visits allow patients to connect with a licensed provider from home, ensuring flexible scheduling and continuous care. Whether you’re managing chronic conditions or seeking preventive guidance, Simmerpreet offers trusted support tailored to your needs.
+    </p>
+  </main>
 
   <footer>
-    <p>© 2025 Simmerpreet Kaur. All rights reserved.</p>
+    <p>© 2025 Simmerpreet Kaur, MSN, APRN. All rights reserved.</p>
   </footer>
 </body>
 </html>
